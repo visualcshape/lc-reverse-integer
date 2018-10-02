@@ -8,10 +8,11 @@
 
 #include <iostream>
 
+#include "Solution.hpp"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    int cool = 12;
-    
-    printf("%d", cool);
+    Solution* sol = new Solution();
+    std::cout << sol->reverse_integer(-2147483647) << std::endl;
+    //printf("%d", INT_MIN);
     return 0;
 }
